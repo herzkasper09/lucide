@@ -26,9 +26,10 @@
     "icons2categories": "node scripts/migrateIconsToCategories.mjs --presets @babel/env",
     "categories2icons": "node scripts/migrateCategoriesToIcons.mjs --presets @babel/env",
     "generate:changelog": "node ./scripts/generateChangelog.mjs",
-    "postinstall": "husky install",
+    "postinstall": "cd .. && husky installtemplate/.husky",
     "generate:contributors": "node ./scripts/updateContributors.mjs icons/*.svg",
     "lint": "eslint --ext .ts,.js,.mjs ./{packages/lucide,scripts}",
+    "prepare": "cd .. && husky installtemplate/.husky",
     "gi": "node ./scripts/generate/generateIcons.mjs"
   },
   "devDependencies": {
