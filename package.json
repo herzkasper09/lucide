@@ -29,7 +29,6 @@
     "postinstall": "husky install",
     "generate:contributors": "node ./scripts/updateContributors.mjs icons/*.svg",
     "lint": "eslint --ext .ts,.js,.mjs ./{packages/lucide,scripts}",
-    "prepare": "husky install",
     "gi": "node ./scripts/generate/generateIcons.mjs"
   },
   "devDependencies": {
