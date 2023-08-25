@@ -36,7 +36,6 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "minimist": "^1.2.8",
     "node-fetch": "^3.3.1",
