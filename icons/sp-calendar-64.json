@@ -1,0 +1,6 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["merten"],
+  "tags": ["date", "birthdate", "birthday", "time", "event"],
+  "categories": ["time"]
+}
