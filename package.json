@@ -26,8 +26,10 @@
     "icons2categories": "node scripts/migrateIconsToCategories.mjs --presets @babel/env",
     "categories2icons": "node scripts/migrateCategoriesToIcons.mjs --presets @babel/env",
     "generate:changelog": "node ./scripts/generateChangelog.mjs",
+    "postinstall": "husky install",
     "generate:contributors": "node ./scripts/updateContributors.mjs icons/*.svg",
     "lint": "eslint --ext .ts,.js,.mjs ./{packages/lucide,scripts}",
+    "prepare": "husky install",
     "gi": "node ./scripts/generate/generateIcons.mjs"
   },
   "devDependencies": {
@@ -37,6 +39,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "minimist": "^1.2.8",
     "node-fetch": "^3.3.1",
